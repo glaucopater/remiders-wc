@@ -20,7 +20,11 @@ Scripts
 - build: build the application
 - lint: check for linting errors
 
+Note:
+CORS should be enabled in order to let the architecture work. 
+Look at the given netlify toml file if you need help.
+
 Env Variables:
 ---
-VITE_REMOTE_MFE_URL: a remote microfrontend / web component url
-VITE_REMOTE_MFE_NAME: the name of the web component
+- VITE_REMOTE_MFE_URL: a remote microfrontend / web component url
+- VITE_REMOTE_MFE_NAME: the name of the web component
