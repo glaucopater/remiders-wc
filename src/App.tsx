@@ -7,8 +7,9 @@ import Reminders from "./pages/Reminders";
 export const App = () => {
   return (
     <Routes>
-      <Route path="/" >
+      <Route path="/">
         <Route index element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/reminders" element={<Reminders />} />
         <Route path="*" element={<NotFound />} />
       </Route>
