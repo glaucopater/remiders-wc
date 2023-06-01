@@ -7,6 +7,8 @@ This is a simple microfrontends architecture completely made with React and the 
 
 At runtime the application will look for the bundle (JS and CSS) exposed by microfrontend and will embed it in the main application.  
 
+Currently this host is consuming https://github.com/glaucopater/reminders-web-component
+
 Setup
 ---
 - Clone the repo
